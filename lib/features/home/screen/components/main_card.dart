@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:venturo_core/constants/asset_constant.dart';
 import 'package:venturo_core/features/home/screen/components/card_info.dart';
+import 'package:venturo_core/features/home/screen/components/vehicle_group.dart';
 
 class MainCard extends StatelessWidget {
   const MainCard({super.key});
@@ -112,11 +113,19 @@ class MainCard extends StatelessWidget {
                         ),
                       ),
                     ),
+                    Align(
+                      alignment: Alignment.topRight,
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 18.w, top: 2.h),
+                        child: const VehicleGroup(),
+                      ),
+                    ),
+
                     // CARD INFO
                     Positioned(
                       left: 100.w,
                       top: 10.h,
-                      right: 16.w,
+                      right: 24.w,
                       child: const CardInfo(
                         id: "3175095801131001",
                         name: "PUTRA NEGARA",
