@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:venturo_core/app.dart';
 import 'package:venturo_core/flavors.dart';
@@ -12,6 +13,11 @@ import 'utils/services/sentry_services.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
 
   /* Uncomment jika sudah membuat Firebase Options
    await Firebase.initializeApp(
