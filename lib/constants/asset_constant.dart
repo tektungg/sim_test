@@ -4,5 +4,7 @@ abstract class AssetConstants {
   static const icBg = "assets/images/ic_bg.svg";
   static const icBg2 = "assets/images/ic_bg2.svg";
   static const icMap = "assets/images/ic_map.svg";
+  static const icPolisi = "assets/images/ic_polisi.svg";
+  static const icPolantas = "assets/images/ic_polantas.svg";
   static const photo = "assets/images/photo.png";
 }
