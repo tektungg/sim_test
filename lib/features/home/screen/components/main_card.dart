@@ -92,7 +92,7 @@ class MainCard extends StatelessWidget {
                     Align(
                       alignment: Alignment.centerLeft,
                       child: Padding(
-                        padding: EdgeInsets.only(left: 16.w, bottom: 16.h),
+                        padding: EdgeInsets.only(left: 10.w, bottom: 16.h),
                         child: Image.asset(
                           AssetConstants.photo,
                           width: 70.w,
@@ -105,7 +105,7 @@ class MainCard extends StatelessWidget {
                     Align(
                       alignment: Alignment.bottomLeft,
                       child: Padding(
-                        padding: EdgeInsets.only(left: 18.w, bottom: 18.h),
+                        padding: EdgeInsets.only(left: 10.w, bottom: 18.h),
                         child: Image.asset(
                           AssetConstants.icSign,
                           width: 70.w,
@@ -130,7 +130,7 @@ class MainCard extends StatelessWidget {
                     ),
                     // CARD INFO
                     Positioned(
-                      left: 100.w,
+                      left: 90.w,
                       top: 10.h,
                       right: 24.w,
                       child: const CardInfo(

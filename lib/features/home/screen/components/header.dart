@@ -12,7 +12,7 @@ class Header extends StatelessWidget {
       children: [
         // Logo Polisi
         Padding(
-          padding: EdgeInsets.only(left: 30.w, top: 7.h),
+          padding: EdgeInsets.only(left: 27.w, top: 7.h),
           child: SvgPicture.asset(
             AssetConstants.icPolisi,
             height: 40.13.h,
@@ -21,7 +21,7 @@ class Header extends StatelessWidget {
         ),
         // Teks "INDONESIA"
         Padding(
-          padding: EdgeInsets.only(left: 100.w, top: 7.h),
+          padding: EdgeInsets.only(left: 90.w, top: 7.h),
           child: Text(
             "INDONESIA",
             style: TextStyle(
@@ -45,7 +45,7 @@ class Header extends StatelessWidget {
         ),
         // Teks "SURAT IZIN MENGEMUDI"
         Padding(
-          padding: EdgeInsets.only(left: 100.w, top: 30.h),
+          padding: EdgeInsets.only(left: 90.w, top: 30.h),
           child: Text(
             "SURAT IZIN MENGEMUDI",
             style: TextStyle(
