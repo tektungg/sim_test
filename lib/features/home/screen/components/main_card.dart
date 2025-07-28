@@ -66,11 +66,14 @@ class MainCard extends StatelessWidget {
                     ),
                     // ICON MAP (icMap)
                     Center(
-                      child: SvgPicture.asset(
-                        AssetConstants.icMap,
-                        colorFilter: const ColorFilter.mode(
-                          Color(0xFFBBBDBD),
-                          BlendMode.srcIn,
+                      child: Padding(
+                        padding: EdgeInsets.only(left: 60.w),
+                        child: SvgPicture.asset(
+                          AssetConstants.icMap,
+                          colorFilter: const ColorFilter.mode(
+                            Color(0xFFBBBDBD),
+                            BlendMode.srcIn,
+                          ),
                         ),
                       ),
                     ),
@@ -96,9 +99,7 @@ class MainCard extends StatelessWidget {
                         ),
                       ),
                     ),
-                    // =========================
-                    // CARD INFO ADA DI DALAM KARTU
-                    // =========================
+                    // CARD INFO
                     Positioned(
                       left: 100.w,
                       top: 10.h,
