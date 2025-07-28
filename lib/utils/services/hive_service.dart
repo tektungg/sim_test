@@ -4,7 +4,6 @@ import "package:get/get.dart";
 import "package:hive_flutter/hive_flutter.dart";
 import "package:path_provider/path_provider.dart";
 import "package:venturo_core/constants/hive_constant.dart";
-import "package:venturo_core/features/crud/models/crud_model.dart";
 
 class HiveService extends GetxService {
   static late Box generalBox;
@@ -39,14 +38,12 @@ class HiveService extends GetxService {
       // path: "${costumePath ?? path.path}_${globalFlavor.index}"
     );
 
-    Hive.registerAdapter(CrudModelAdapter());
-    Hive.registerAdapter(CrudDataModelAdapter());
-
     return this;
   }
 
   /// Function for set data to the general box.
-  void set<T>({required String key, required T data}) => generalBox.put(key, data);
+  void set<T>({required String key, required T data}) =>
+      generalBox.put(key, data);
 
   /// Function for get data from the general box.
   T? get<T>({required String key}) => generalBox.get(key) as T?;
