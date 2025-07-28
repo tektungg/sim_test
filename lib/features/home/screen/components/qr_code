@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:qr_flutter/qr_flutter.dart';
+
+class QrCode extends StatelessWidget {
+  const QrCode({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        // QR Code
+        QrImageView(
+          data: '3175095801131001',
+          version: QrVersions.auto,
+          size: 64.w,
+        ),
+        // Masa Berlaku
+        Text(
+          '21-12-2028',
+          style: TextStyle(
+            fontSize: 10.sp,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+          ),
+        ),
+      ],
+    );
+  }
+}
