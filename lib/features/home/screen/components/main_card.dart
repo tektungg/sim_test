@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:venturo_core/constants/asset_constant.dart';
 import 'package:venturo_core/features/home/screen/components/card_info.dart';
-import 'package:venturo_core/features/home/screen/components/qr_code';
+import 'package:venturo_core/features/home/screen/components/qr_code.dart';
 import 'package:venturo_core/features/home/screen/components/vehicle_group.dart';
 import 'package:venturo_core/shared/styles/color_style.dart';
 
