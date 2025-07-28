@@ -21,7 +21,7 @@ class Header extends StatelessWidget {
         ),
         // Teks "INDONESIA"
         Padding(
-          padding: EdgeInsets.only(left: 90.w, top: 7.h),
+          padding: EdgeInsets.only(left: 100.w, top: 7.h),
           child: Text(
             "INDONESIA",
             style: TextStyle(
@@ -33,11 +33,11 @@ class Header extends StatelessWidget {
         ),
         // Teks "DRIVER LICENSE"
         Padding(
-          padding: EdgeInsets.only(left: 240.w, top: 18.h),
+          padding: EdgeInsets.only(left: 240.w, top: 16.h),
           child: Text(
             "DRIVER LICENSE",
             style: TextStyle(
-              fontSize: 9.sp,
+              fontSize: 11.sp,
               fontWeight: FontWeight.bold,
               color: const Color(0xFFF0F0F1),
             ),
@@ -45,7 +45,7 @@ class Header extends StatelessWidget {
         ),
         // Teks "SURAT IZIN MENGEMUDI"
         Padding(
-          padding: EdgeInsets.only(left: 90.w, top: 30.h),
+          padding: EdgeInsets.only(left: 100.w, top: 30.h),
           child: Text(
             "SURAT IZIN MENGEMUDI",
             style: TextStyle(

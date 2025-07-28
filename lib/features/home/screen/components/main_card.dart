@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:venturo_core/constants/asset_constant.dart';
+import 'package:venturo_core/features/home/screen/components/card_info.dart';
 
 class MainCard extends StatelessWidget {
   const MainCard({super.key});
@@ -93,6 +94,25 @@ class MainCard extends StatelessWidget {
                           height: 95.w,
                           fit: BoxFit.cover,
                         ),
+                      ),
+                    ),
+                    // =========================
+                    // CARD INFO ADA DI DALAM KARTU
+                    // =========================
+                    Positioned(
+                      left: 100.w,
+                      top: 10.h,
+                      right: 16.w,
+                      child: const CardInfo(
+                        id: "3175095801131001",
+                        name: "PUTRA NEGARA",
+                        birthPlaceDate: "JAKARTA 17 AGUSTUS 1975",
+                        bloodType: "O",
+                        gender: "PRIA",
+                        address:
+                            "MT HARYONO ST, RT.4/RW.2, CIKOKO,\nPANCORAN JAKARTA SELATAN",
+                        job: "POLRI",
+                        issuedBy: "METRO JAYA",
                       ),
                     ),
                   ],
