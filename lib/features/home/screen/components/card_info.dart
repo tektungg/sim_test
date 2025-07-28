@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:venturo_core/shared/styles/color_style.dart';
 
 class CardInfo extends StatelessWidget {
   final String id;
@@ -34,31 +35,31 @@ class CardInfo extends StatelessWidget {
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 12.sp,
-            color: Colors.black,
+            color: ColorStyle.text900,
           ),
         ),
         // Nama
         Text(
           "Nama/Name",
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 7.sp, color: Colors.black),
+              fontWeight: FontWeight.bold, fontSize: 7.sp, color: ColorStyle.text900),
         ),
         Text(
           name,
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 9.sp, color: Colors.black),
+              fontWeight: FontWeight.bold, fontSize: 9.sp, color: ColorStyle.text900),
         ),
         SizedBox(height: 2.h),
         // Tempat Tanggal Lahir
         Text(
           "Tempat, Tgl Lahir/Place, Date of Birth",
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 7.sp, color: Colors.black),
+              fontWeight: FontWeight.bold, fontSize: 7.sp, color: ColorStyle.text900),
         ),
         Text(
           birthPlaceDate,
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 9.sp, color: Colors.black),
+              fontWeight: FontWeight.bold, fontSize: 9.sp, color: ColorStyle.text900),
         ),
         SizedBox(height: 2.h),
 
@@ -74,14 +75,14 @@ class CardInfo extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 7.sp,
-                        color: Colors.black),
+                        color: ColorStyle.text900),
                   ),
                   Text(
                     bloodType,
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 9.sp,
-                        color: Colors.black),
+                        color: ColorStyle.text900),
                   ),
                 ],
               ),
@@ -96,14 +97,14 @@ class CardInfo extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 7.sp,
-                        color: Colors.black),
+                        color: ColorStyle.text900),
                   ),
                   Text(
                     gender,
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 9.sp,
-                        color: Colors.black),
+                        color: ColorStyle.text900),
                   ),
                 ],
               ),
@@ -116,12 +117,12 @@ class CardInfo extends StatelessWidget {
         Text(
           "Alamat/Address",
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 7.sp, color: Colors.black),
+              fontWeight: FontWeight.bold, fontSize: 7.sp, color: ColorStyle.text900),
         ),
         Text(
           address,
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 9.sp, color: Colors.black),
+              fontWeight: FontWeight.bold, fontSize: 9.sp, color: ColorStyle.text900),
         ),
         SizedBox(height: 2.h),
 
@@ -129,12 +130,12 @@ class CardInfo extends StatelessWidget {
         Text(
           "Pekerjaan/Occupation",
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 7.sp, color: Colors.black),
+              fontWeight: FontWeight.bold, fontSize: 7.sp, color: ColorStyle.text900),
         ),
         Text(
           job,
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 9.sp, color: Colors.black),
+              fontWeight: FontWeight.bold, fontSize: 9.sp, color: ColorStyle.text900),
         ),
         SizedBox(height: 2.h),
 
@@ -142,12 +143,12 @@ class CardInfo extends StatelessWidget {
         Text(
           "Diterbitkan Oleh/Issued By",
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 7.sp, color: Colors.black),
+              fontWeight: FontWeight.bold, fontSize: 7.sp, color: ColorStyle.text900),
         ),
         Text(
           issuedBy,
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 9.sp, color: Colors.black),
+              fontWeight: FontWeight.bold, fontSize: 9.sp, color: ColorStyle.text900),
         ),
       ],
     );

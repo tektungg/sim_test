@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:venturo_core/constants/asset_constant.dart';
+import 'package:venturo_core/shared/styles/color_style.dart';
 
 class Header extends StatelessWidget {
   const Header({super.key});
@@ -27,7 +28,7 @@ class Header extends StatelessWidget {
             style: TextStyle(
               fontSize: 20.sp,
               fontWeight: FontWeight.bold,
-              color: const Color(0xFFF0F0F1),
+              color: ColorStyle.text100,
             ),
           ),
         ),
@@ -39,7 +40,7 @@ class Header extends StatelessWidget {
             style: TextStyle(
               fontSize: 11.sp,
               fontWeight: FontWeight.bold,
-              color: const Color(0xFFF0F0F1),
+              color: ColorStyle.text100,
             ),
           ),
         ),
@@ -51,7 +52,7 @@ class Header extends StatelessWidget {
             style: TextStyle(
               fontSize: 9.sp,
               fontWeight: FontWeight.bold,
-              color: const Color(0xFFE62129),
+              color: ColorStyle.simRed,
             ),
           ),
         ),

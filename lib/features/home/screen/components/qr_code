@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:qr_flutter/qr_flutter.dart';
+import 'package:venturo_core/shared/styles/color_style.dart';
 
 class QrCode extends StatelessWidget {
   const QrCode({super.key});
@@ -22,7 +23,7 @@ class QrCode extends StatelessWidget {
           style: TextStyle(
             fontSize: 10.sp,
             fontWeight: FontWeight.bold,
-            color: Colors.black,
+            color: ColorStyle.text900,
           ),
         ),
       ],

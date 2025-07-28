@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:venturo_core/constants/asset_constant.dart';
+import 'package:venturo_core/shared/styles/color_style.dart';
 
 class VehicleGroup extends StatelessWidget {
   const VehicleGroup({super.key});
@@ -16,7 +17,7 @@ class VehicleGroup extends StatelessWidget {
           style: TextStyle(
               fontSize: 25.sp,
               fontWeight: FontWeight.bold,
-              color: Colors.black,
+              color: ColorStyle.text900,
               height: 1.h),
         ),
         // Gambar mobil
@@ -31,7 +32,7 @@ class VehicleGroup extends StatelessWidget {
           textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: 6.sp,
-            color: Colors.black,
+            color: ColorStyle.text900,
             fontWeight: FontWeight.w500,
           ),
         ),

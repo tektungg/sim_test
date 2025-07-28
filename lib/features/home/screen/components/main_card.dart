@@ -5,6 +5,7 @@ import 'package:venturo_core/constants/asset_constant.dart';
 import 'package:venturo_core/features/home/screen/components/card_info.dart';
 import 'package:venturo_core/features/home/screen/components/qr_code';
 import 'package:venturo_core/features/home/screen/components/vehicle_group.dart';
+import 'package:venturo_core/shared/styles/color_style.dart';
 
 class MainCard extends StatelessWidget {
   const MainCard({super.key});
@@ -24,7 +25,7 @@ class MainCard extends StatelessWidget {
             height: 30.h,
             width: double.infinity,
             decoration: BoxDecoration(
-              color: const Color(0xFFE62129),
+              color: ColorStyle.simRed,
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(10.r),
                 topRight: Radius.circular(10.r),
@@ -40,7 +41,7 @@ class MainCard extends StatelessWidget {
               child: Container(
                 width: double.infinity,
                 decoration: const BoxDecoration(
-                  color: Color(0xFFF0F0F1),
+                  gradient: ColorStyle.simCardBgGradient,
                 ),
                 alignment: Alignment.bottomCenter,
                 child: Stack(
@@ -73,7 +74,7 @@ class MainCard extends StatelessWidget {
                         child: SvgPicture.asset(
                           AssetConstants.icMap,
                           colorFilter: const ColorFilter.mode(
-                            Color(0xFFBBBDBD),
+                            ColorStyle.simMapGrey,
                             BlendMode.srcIn,
                           ),
                         ),
