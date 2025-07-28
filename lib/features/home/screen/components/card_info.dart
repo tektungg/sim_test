@@ -86,6 +86,7 @@ class CardInfo extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(width: 2.w),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,

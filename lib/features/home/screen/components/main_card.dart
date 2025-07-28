@@ -99,6 +99,19 @@ class MainCard extends StatelessWidget {
                         ),
                       ),
                     ),
+                    // TANDA TANGAN (icSign)
+                    Align(
+                      alignment: Alignment.bottomLeft,
+                      child: Padding(
+                        padding: EdgeInsets.only(left: 18.w, bottom: 18.h),
+                        child: Image.asset(
+                          AssetConstants.icSign,
+                          width: 70.w,
+                          height: 30.h,
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                    ),
                     // CARD INFO
                     Positioned(
                       left: 100.w,
